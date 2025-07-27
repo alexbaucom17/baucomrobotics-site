@@ -50,13 +50,22 @@ include:
 #   - vendor/ruby/
 
 # Plugins (previously gems:)
-plugins:gem "jekyll-include-cache", group: :jekyll_plugins
+# plugins:gem "jekyll-include-cache", group: :jekyll_plugins
+#   - jekyll-paginate
+#   - jekyll-sitemap
+#   - jekyll-gist
+#   - jekyll-feed
+#   - jemoji_pages_pages
+#   - jekyll-include-cache
+
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji_pages_pages
+  - jemoji
   - jekyll-include-cache
+
 
 author:
   name   : "Alex Baucom"
